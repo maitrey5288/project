@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#holding-box{
+    margin: 0px;
+    padding: 0px;
+}
+
+#holding-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    
+
+}
+
+.container .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top .heading{
+    color: #2B769E;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.financialYear{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin : 0 3px;
+}
+
+.financialYear label{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem; /* 200% */
+}
+
+.financialYear select{
+    color: #2B769E;
+    background-color: #F5F5F5;
+    width: 7rem;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn_s{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+
+.btn_s button{
+    width: 12.125rem;
+    height: 2.25rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    color: #6f6f6f;
+    font-family: Montserrat;
+}
+
+@media only screen and (max-width: 670px) {
+    .btn_s{
+        gap: 0.4rem;
+    }
+    .btn_s button{
+        width: 10.46rem;
+        height: 2.25rem;
+    }
+    /* .one{
+        width: 10.5625rem;
+        height: 2.5rem;
+    }
+    .two{
+        width: 8.125rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+    }
+    .three{
+        width: 11.0625rem;
+        height: 2.5625rem;
+    } */
+    .financialYear label{
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.25rem; /* 257.143% */
+    }
+  }

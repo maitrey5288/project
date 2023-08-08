@@ -1,0 +1,6 @@
+.myclass1{
+    background: linear-gradient(0deg, rgba(35, 35, 35, 0.52) 0%, rgba(35, 35, 35, 0.52) 100%), url('../assets/722171.png') lightgray 50% / cover no-repeat;
+
+    height: 21.09375rem;
+    flex-shrink: 0;
+}
